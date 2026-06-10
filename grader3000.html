@@ -1,10 +1,41 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Grader 3000</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-<body>
 
+<body>
+<main>
+    <h1>Grader 3000</h1>
+
+    <section>
+        <h2>Übungen</h2>
+        <div id="exercise-inputs"></div>
+    </section>
+
+    <section>
+        <h2>Klausur</h2>
+        <div id="exam-input"></div>
+    </section>
+
+    <section>
+        <h2>Anwesenheit</h2>
+        <div id="attendance-input"></div>
+    </section>
+
+    <section id="result">
+        <h2>Ergebnis</h2>
+        <p id="exercise-grade"></p>
+        <p id="exam-grade"></p>
+        <p id="attendance-result"></p>
+        <p id="total-grade"></p>
+        <p id="final-mark"></p>
+        <ul id="reasons"></ul>
+    </section>
+</main>
+
+<script type="module" src="main.js"></script>
 </body>
 </html>
